@@ -1,9 +1,10 @@
+import Title from '@/components/Title';
 import React from 'react';
 
 export default function NotFound() {
   return (
     <main>
-      <p>Sorry, page not found!</p>
+      <Title>Oh no our link, it&apos;s broken</Title>
     </main>
   );
 }
